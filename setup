@@ -2,5 +2,5 @@
 
 cp .dot ~/Desktop/.dot
 cp .dotchar ~/Desktop/.dotchar
-echo "alias dot='~/Desktop/.dot'" >>> ~/.bash_profile
+echo 'alias dot="~/Desktop/.dot"' >> ~/.bash_profile
 source ~/.bash_profile
