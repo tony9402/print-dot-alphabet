@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo $1 > ~/Desktop/.temp
+~/Desktop/.dotchar < ~/Desktop/.temp | pbcopy
+rm ~/Desktop/.temp
+
+pbpaste
